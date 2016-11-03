@@ -1,0 +1,84 @@
+.modal-block{
+    position: relative;
+    height: 100%;
+}
+
+.modern.modal-window {
+    border-radius: 15px;
+    min-height: 250px;
+    min-width: 250px;
+    background-color: #F9F9F9;
+    box-shadow:
+            0 1px rgba(255,255,255,.2) inset,
+            0 1px 5px 1px rgba(0, 1, 6, 0.36),
+            0 0 1px 2px rgba(0,1,6,.2);
+}
+.modern .header {
+    padding-top: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: radial-gradient(#ffffff, #A7A2A2);
+    position: relative;
+    cursor: move;
+}
+.modern .button {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    box-shadow:
+            0 1px rgba(255,255,255,.2) inset,
+            0 1px 5px 1px rgba(0, 1, 6, 0.36),
+            0 0 1px 1px rgba(0, 1, 6, 0.2);
+}
+
+.modern .button:focus{
+    box-shadow:
+            0 0 1px rgba(0,0,0,.5) inset,
+            0 1px 5px 1px rgba(0,0,0,.5) inset,
+            0 0 1px 1px rgba(255,255,255,.1);
+    text-decoration: none;
+    outline: none;
+}
+.modern .button:hover {
+    text-decoration: none;
+}
+.modern .icon {
+    position: absolute;
+    background: url('../icon/close.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+}
+.modern .sun-cont{
+    height: 89%;
+}
+.modern  iframe{
+    height: 99%;
+    width: 99%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.modern .footer{
+    height: 11px;
+    background-color: #B7B3B3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: se-resize;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.modern .footer > span {
+    right: 14px;
+    position: absolute;
+    padding-top: 0;
+    font-size: 25px;
+    margin-top: -15px;
+    text-shadow: 1px 1px 1px black, 1em 1em 1em white;
+}
